@@ -1,0 +1,9 @@
+﻿  Compiling CUDA source file ..\..\..\..\Desktop\Zadanie1Lab4.cu...
+  
+  C:\Users\themr\source\repos\Zadanie1Lab4\Zadanie1Lab4>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "D:\Visual Studio1\VC\Tools\MSVC\14.43.34808\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9\include"  -G   --keep-dir x64\Debug  -maxrregcount=0    --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o C:\Users\themr\source\repos\Zadanie1Lab4\Zadanie1Lab4\x64\Debug\Zadanie1Lab4.cu.obj "C:\Users\themr\Desktop\Zadanie1Lab4.cu" 
+CUDACOMPILE : nvcc warning : Support for offline compilation for architectures prior to '<compute/sm/lto>_75' will be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  Zadanie1Lab4.cu
+  tmpxft_0000be1c_00000000-7_Zadanie1Lab4.cudafe1.cpp
+     Создается библиотека C:\Users\themr\source\repos\Zadanie1Lab4\x64\Debug\Zadanie1Lab4.lib и объект C:\Users\themr\source\repos\Zadanie1Lab4\x64\Debug\Zadanie1Lab4.exp
+LINK : warning LNK4098: библиотека по умолчанию "LIBCMT" конфликтует с использованием других библиотек; используйте /NODEFAULTLIB:library
+  Zadanie1Lab4.vcxproj -> C:\Users\themr\source\repos\Zadanie1Lab4\x64\Debug\Zadanie1Lab4.exe
